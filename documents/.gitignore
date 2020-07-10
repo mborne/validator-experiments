@@ -1,0 +1,9 @@
+*/archive/
+*/input/
+*/validation/*
+!*/validation/validation.jsonl
+!*/validation/document-info.json
+*.csv
+validator-debug.log
+*.db
+*.vrows
