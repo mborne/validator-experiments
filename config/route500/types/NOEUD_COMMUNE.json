@@ -46,14 +46,14 @@
         },
         {
             "name": "SUPERFICIE",
-            "type": "String",
+            "type": "Integer",
             "constraints": {
                 "required": true
             }
         },
         {
             "name": "POPULATION",
-            "type": "String",
+            "type": "Integer",
             "constraints": {
                 "required": true
             }

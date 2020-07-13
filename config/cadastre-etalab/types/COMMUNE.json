@@ -10,7 +10,7 @@
             }
         },
         {
-            "name": "lettre",
+            "name": "nom",
             "type": "String",
             "constraints": {
                 "required": true

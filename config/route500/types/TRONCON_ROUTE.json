@@ -13,28 +13,51 @@
             "name": "VOCATION",
             "type": "String",
             "constraints": {
-                "required": true
+                "required": true,
+                "enum": [
+                    "Type autoroutier",
+                    "Liaison régionale",
+                    "Liaison principale",
+                    "Liaison locale",
+                    "Bretelle"
+                ]
             }
         },
         {
             "name": "NB_CHAUSSE",
             "type": "String",
             "constraints": {
-                "required": true
+                "required": true,
+                "enum": [
+                    "1 chaussée",
+                    "2 chaussées"
+                ]
             }
         },
         {
             "name": "NB_VOIES",
             "type": "String",
             "constraints": {
-                "required": true
+                "required": true,
+                "enum": [
+                    "Sans objet",
+                    "1 voie",
+                    "2 voies étroites",
+                    "2 voies larges",
+                    "3 voies",
+                    "4 voies",
+                    "Plus de 4 voies"
+                ]
             }
         },
         {
             "name": "ETAT",
             "type": "String",
             "constraints": {
-                "required": true
+                "required": true,
+                "enum": [
+                    "Revêtu"
+                ]
             }
         },
         {
@@ -48,14 +71,23 @@
             "name": "RES_VERT",
             "type": "String",
             "constraints": {
-                "required": true
+                "required": true,
+                "enum": [
+                    "Appartient",
+                    "N'appartient pas"
+                ]
             }
         },
         {
             "name": "SENS",
             "type": "String",
             "constraints": {
-                "required": true
+                "required": true,
+                "enum": [
+                    "Double sens",
+                    "Sens direct",
+                    "Sens inverse"
+                ]
             }
         },
         {
@@ -90,7 +122,13 @@
             "name": "CLASS_ADM",
             "type": "String",
             "constraints": {
-                "required": true
+                "required": true,
+                "enum": [
+                    "Sans objet",
+                    "Départementale",
+                    "Nationale",
+                    "Autoroute"
+                ]
             }
         },
         {
