@@ -1,0 +1,45 @@
+{
+  "name" : "input",
+  "documentModel" : {
+    "name" : "cadastre-etalab"
+  },
+  "files" : [ {
+    "type" : "table",
+    "modelName" : "BATIMENT",
+    "name" : "batiments.dbf",
+    "path" : "batiments.dbf",
+    "boundingBox" : [ 5.7082570, 46.5570995, 7.0494713, 47.5786816 ],
+    "totalFeatures" : 393890
+  }, {
+    "type" : "table",
+    "modelName" : "COMMUNE",
+    "name" : "communes.dbf",
+    "path" : "communes.dbf",
+    "boundingBox" : [ 5.6987366, 46.5537826, 7.0622628, 47.5799547 ],
+    "totalFeatures" : 563
+  }, {
+    "type" : "table",
+    "modelName" : "FEUILLE",
+    "name" : "feuilles.dbf",
+    "path" : "feuilles.dbf",
+    "boundingBox" : [ 5.6987366, 46.5537826, 7.0622628, 47.5799547 ],
+    "totalFeatures" : 7479
+  }, {
+    "type" : "table",
+    "modelName" : "PARCELLE",
+    "name" : "parcelles.dbf",
+    "path" : "parcelles.dbf",
+    "boundingBox" : [ 5.6987366, 46.5537826, 7.0621668, 47.5799547 ],
+    "totalFeatures" : 760937
+  }, {
+    "type" : "table",
+    "modelName" : "SUBDIVISION_FISCALE",
+    "name" : "subdivisions_fiscales.dbf",
+    "path" : "subdivisions_fiscales.dbf",
+    "boundingBox" : [ 5.7108819, 46.5806198, 7.0430796, 47.5793863 ],
+    "totalFeatures" : 117593
+  } ],
+  "documentExtent" : [ 5.6987366, 46.5537826, 7.0622628, 47.5799547 ],
+  "tags" : { },
+  "metadata" : null
+}
