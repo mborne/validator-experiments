@@ -41,5 +41,7 @@ java -Xms128m -Xmx256m -jar "$VALIDATOR_PATH" document_validator \
     --string-fix-utf8 --string-escape-controls \
     --input $DOCUMENT_PATH \
     --srs "${SRS}" \
-    --encoding UTF-8
+    --encoding UTF-8 \
+    --max-errors 20 \
+    --normalize
 
