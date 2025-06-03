@@ -24,8 +24,9 @@ Téléchargement et validation des [données cadastre-etalab sur le département
 bash validate.sh cadastre_25 cadastre-etalab EPSG:2154
 ```
 
-Rapport : [documents/cadastre_25/validation/validation.jsonl](documents/cadastre_25/validation/validation.jsonl)
-
+* Rapport : [documents/cadastre_25/validation/validation.jsonl](documents/cadastre_25/validation/validation.jsonl)
+* Informations : [documents/cadastre_25/validation/document-info.json](documents/cadastre_25/validation/document-info.json)
+ 
 ### route500
 
 Téléchargement et validation des [données ROUTE500](https://files.opendatarchives.fr/professionnels.ign.fr/route500/) :
@@ -34,4 +35,6 @@ Téléchargement et validation des [données ROUTE500](https://files.opendatarch
 bash validate.sh route500 route500 EPSG:2154
 ```
 
-Rapport : [documents/route500/validation/validation.jsonl](documents/cadastre_25/validation/validation.jsonl)
+* Rapport : [documents/route500/validation/validation.jsonl](documents/cadastre_25/validation/validation.jsonl)
+* Informations : [documents/cadastre_25/validation/document-info.json](documents/cadastre_25/validation/document-info.json)
+
