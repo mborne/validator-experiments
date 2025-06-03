@@ -1,0 +1,114 @@
+{
+  "name" : "input",
+  "documentModel" : {
+    "name" : "route500"
+  },
+  "files" : [ {
+    "type" : "directory",
+    "modelName" : "ADMINISTRATIF",
+    "name" : "ADMINISTRATIF",
+    "path" : "ADMINISTRATIF"
+  }, {
+    "type" : "table",
+    "modelName" : "COMMUNE",
+    "name" : "COMMUNE.dbf",
+    "path" : "ADMINISTRATIF/COMMUNE.dbf",
+    "boundingBox" : [ -5.1412766, 41.3335557, 9.5600936, 51.0889894 ],
+    "totalFeatures" : 34838
+  }, {
+    "type" : "table",
+    "modelName" : "LIMITE_ADMINISTRATIVE",
+    "name" : "LIMITE_ADMINISTRATIVE.dbf",
+    "path" : "ADMINISTRATIF/LIMITE_ADMINISTRATIVE.dbf",
+    "boundingBox" : [ -5.1412766, 41.3335557, 9.5600936, 51.0889894 ],
+    "totalFeatures" : 104990
+  }, {
+    "type" : "directory",
+    "modelName" : "HABILLAGE",
+    "name" : "HABILLAGE",
+    "path" : "HABILLAGE"
+  }, {
+    "type" : "table",
+    "modelName" : "COTE_FRONTIERE",
+    "name" : "COTE_FRONTIERE.dbf",
+    "path" : "HABILLAGE/COTE_FRONTIERE.dbf",
+    "boundingBox" : [ -5.1412766, 41.3335557, 9.5600936, 51.0889894 ],
+    "totalFeatures" : 975
+  }, {
+    "type" : "table",
+    "modelName" : "TRONCON_HYDROGRAPHIQUE",
+    "name" : "TRONCON_HYDROGRAPHIQUE.dbf",
+    "path" : "HABILLAGE/TRONCON_HYDROGRAPHIQUE.dbf",
+    "boundingBox" : [ -4.7631440, 41.5073173, 9.5577039, 51.1199421 ],
+    "totalFeatures" : 10530
+  }, {
+    "type" : "table",
+    "modelName" : "ZONE_OCCUPATION_SOL",
+    "name" : "ZONE_OCCUPATION_SOL.dbf",
+    "path" : "HABILLAGE/ZONE_OCCUPATION_SOL.dbf",
+    "boundingBox" : [ -5.4828886, 41.1343663, 9.8644322, 51.3150480 ],
+    "totalFeatures" : 10488
+  }, {
+    "type" : "directory",
+    "modelName" : "RESEAU_FERRE",
+    "name" : "RESEAU_FERRE",
+    "path" : "RESEAU_FERRE"
+  }, {
+    "type" : "table",
+    "modelName" : "NOEUD_FERRE",
+    "name" : "NOEUD_FERRE.dbf",
+    "path" : "RESEAU_FERRE/NOEUD_FERRE.dbf",
+    "boundingBox" : [ -4.4799215, 41.9274317, 9.4485912, 51.0761294 ],
+    "totalFeatures" : 7803
+  }, {
+    "type" : "table",
+    "modelName" : "TRONCON_VOIE_FERREE",
+    "name" : "TRONCON_VOIE_FERREE.dbf",
+    "path" : "RESEAU_FERRE/TRONCON_VOIE_FERREE.dbf",
+    "boundingBox" : [ -4.4799215, 41.9274317, 9.4491187, 51.0556483 ],
+    "totalFeatures" : 8069
+  }, {
+    "type" : "directory",
+    "modelName" : "RESEAU_ROUTIER",
+    "name" : "RESEAU_ROUTIER",
+    "path" : "RESEAU_ROUTIER"
+  }, {
+    "type" : "table",
+    "modelName" : "AERODROME",
+    "name" : "AERODROME.dbf",
+    "path" : "RESEAU_ROUTIER/AERODROME.dbf",
+    "boundingBox" : [ -5.0624656, 41.4988926, 9.4809794, 50.9581006 ],
+    "totalFeatures" : 164
+  }, {
+    "type" : "table",
+    "modelName" : "COMMUNICATION_RESTREINTE",
+    "name" : "COMMUNICATION_RESTREINTE.dbf",
+    "path" : "RESEAU_ROUTIER/COMMUNICATION_RESTREINTE.dbf",
+    "boundingBox" : [ -4.6161059, 42.1772516, 9.4537646, 51.0390220 ],
+    "totalFeatures" : 14555
+  }, {
+    "type" : "table",
+    "modelName" : "NOEUD_COMMUNE",
+    "name" : "NOEUD_COMMUNE.dbf",
+    "path" : "RESEAU_ROUTIER/NOEUD_COMMUNE.dbf",
+    "boundingBox" : [ -5.0981700, 41.3993088, 9.5392988, 51.0726567 ],
+    "totalFeatures" : 34838
+  }, {
+    "type" : "table",
+    "modelName" : "NOEUD_ROUTIER",
+    "name" : "NOEUD_ROUTIER.dbf",
+    "path" : "RESEAU_ROUTIER/NOEUD_ROUTIER.dbf",
+    "boundingBox" : [ -5.1303563, 41.3703705, 9.5556682, 51.0882720 ],
+    "totalFeatures" : 910802
+  }, {
+    "type" : "table",
+    "modelName" : "TRONCON_ROUTE",
+    "name" : "TRONCON_ROUTE.dbf",
+    "path" : "RESEAU_ROUTIER/TRONCON_ROUTE.dbf",
+    "boundingBox" : [ -5.1303563, 41.3685061, 9.5567064, 51.0883611 ],
+    "totalFeatures" : 1302485
+  } ],
+  "documentExtent" : [ -5.4828886, 41.1343663, 9.8644322, 51.3150480 ],
+  "tags" : { },
+  "metadata" : null
+}
