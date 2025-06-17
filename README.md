@@ -38,3 +38,17 @@ bash validate.sh route500 route500 EPSG:2154
 * Rapport : [documents/route500/validation/validation.jsonl](documents/cadastre_25/validation/validation.jsonl)
 * Informations : [documents/cadastre_25/validation/document-info.json](documents/cadastre_25/validation/document-info.json)
 
+
+## Utilisation avec docker
+
+```bash
+cd validator-experiments
+
+# construction de l'image
+docker build --build-arg http_proxy --build-arg https_proxy -t validator-experiments:latest .
+
+# TODO proxy pour test cadastre
+docker run --rm -ti --userns=host -u $(id -u):$(id -g) -v ./:/data -w /data validator-experiments:latest /bin/bash
+```
+
+
